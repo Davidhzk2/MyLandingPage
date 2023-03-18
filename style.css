@@ -15,6 +15,11 @@ body{
     color: var(--color-text);
     
 }
+main{
+    width: 85%;
+    border:1px dotted red;
+    margin: auto;
+}
 section{
     height: 100vh;
     text-align: center;
@@ -48,6 +53,44 @@ footer{
     background-color: var(--color-secundary);
     min-height: 100px;
     color: var(--color-white);
+}
+
+
+.box-container{
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.footer-menu{
+    width: 100% ;
+    background-color: tomato;
+    text-align: center;
+}
+
+.box-container li{
+    display: flex;
+    border-color: red;
+    border: 1px dotted red;
+    list-style-type: none;
+    /* padding: 5px; */
+}
+.box-container a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+.box-container a i{
+    font-size: 24px;
+}
+.info-rights{
+    display: flex;
+    padding-top: 10px;
+    border-top: 1px solid #e3e3e3;
+    text-align: center;
+    justify-content: space-around;
+    color:  #e7e3e3;
+    font-style: italic;
 }
 
 
