@@ -1,0 +1,14 @@
+/* Color for my page */
+:root{
+
+    --color: #585C6D;
+
+    --color-secundary: #10162F;
+
+    --color-border: #10162F;
+    --color-text: var(--color-border);
+    --color-background: #FFF0E5;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+}
