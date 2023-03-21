@@ -245,12 +245,33 @@ footer{
 .social-media{
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
+
 .social-media li{
+    padding: 0px 35px 0px 0px;
+}
+.social-media a{
+    font-size: 35px;
+    margin-right:5px;
+}
+
+.wrap-container .social-media a:hover{
+    border-bottom: 2px solid var(--color-border);
+}
+.box-container .social-media{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.box-container .social-media li{
     padding: 0px 10px;
 }
 
-.social-media a:hover {
+
+.box-container .social-media a:hover {
     color: #e3e3e3e3;
     /* color: #a7a7a7de; */
 }
