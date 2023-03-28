@@ -26,11 +26,6 @@ section{
     /* text-align: center; */
 }
 
-.about{
-    width: 100%;
-    background-color: var(--color-white);
-}
-
 .container{
     display: flex;
     flex-direction: column;
@@ -78,6 +73,19 @@ section{
     border: 1px solid var(--color-border);
     background-color: var(--color-white);
     border-radius: 2px;
+}
+
+.about {
+    width: 100%;
+    background-color: var(--color-white);
+}
+
+.main-container{
+    width: 85%;
+    margin: auto;
+    background-color: crimson;
+    display: flex;
+    padding: 30px 0;
 }
 
 .wrap-container{
