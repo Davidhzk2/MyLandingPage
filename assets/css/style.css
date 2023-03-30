@@ -80,6 +80,12 @@ section{
     background-color: var(--color-white);
 }
 
+.skills{
+    width: 100%;
+    min-height: 50%vh;
+    height: 70vh;
+}
+
 .main-container{
     width: 85%;
     margin: auto;
