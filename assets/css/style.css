@@ -122,7 +122,6 @@ section{
     display: flex;
     justify-content: center;
     margin-right: 2rem;
-    /* width: calc(33.3333% - 1.33333rem); */
     margin-top: 1rem;
 }
 
@@ -142,11 +141,11 @@ section{
     cursor: pointer;
 }
 
-/* .card-wrapper:hover{
+.card-wrapper:hover{
     transform: translate(4px, -4px);
-    box-shadow: -8px 8px 0 var(--color-border);
+    /* box-shadow: -8px 8px 0 var(--color-border); */
     transition: all 0.5s ease-out;
-} */
+}
 
 .card-wrapper .content-image{
     padding: 0.25rem 0.75rem;
