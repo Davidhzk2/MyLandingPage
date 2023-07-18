@@ -345,7 +345,7 @@ section{
 }
 
 .btn-up{
-    display: none;
+    /* display: none; */
     width: 50px;
     height: 50px;
     background-color: var(--color-secundary);
