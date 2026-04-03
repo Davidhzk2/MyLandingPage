@@ -9,12 +9,27 @@
 
 </head>
 <body>
+    <header class="header-navigation">
+        <div class=""></div>
+        <div class=""></div>
+        <div class="flex">
+            <a href="./assets/images/IMG_20221221_122036(1).jpg" download="CV.jpg">
+                <button class="btn" dow>DOWNLOAD CV</button>
+            </a>
+            <div class="language">
+                <select name="" id="">
+                    <option value="">ES</option>
+                    <option value="">EN</option>
+                </select>
+            </div>
+        </div>
+    </header>
     <main>
-        <section class="" id="home">
+        <section class="full-section" id="home">
             <div class="container">
                 <div class="saludo">
                     <h1 class="text_name">I'm David Herrera Zapata</h1>
-                    <h4 class="write_text">¡Hi 👋, I'm a Software Developer!</i></h4>
+                    <h3 class="write_text">¡Hi 👋, I'm a Software Developer!</i></h4>
                 </div>
                 <div class="scroll-down">
                     <a href="#about"><i class="fa fa-chevron-down"></i></a>
@@ -25,7 +40,7 @@
             <div class="main-container">
                 <div class="about-container">
                     <div class="about-image">
-                        <img src="./assets/images/IMG_20221221_122036(1).jpg" alt="PROFILE" class="img">
+                        <img  src="./assets/images/IMG_20221221_122036(1).jpg" alt="PROFILE" class="img">
                     </div>
                     <div class="about-description">
                         <div class="about-titles">
@@ -38,7 +53,7 @@
                         <p>when i am not doing codes, i like to do excersice, conect with the nature, be a local guide.</p>
                         <div class="call-actions">
                             <button class="btn">DOWNLOAD CV</button>
-                            <a href="#contact" class="btn">CONTACTME</a>
+                            <a href="#contact" ><button class="btn">Contactame</button></a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +62,7 @@
         <section class="skills" id="skills">
             <div class="main-container">
                 <div class="skills-container">
-                    <h2 class="title">skills</h2>
+                    <h2 class="section-title">skills</h2>
                     <div class="skills-description">
                         <p>Estas son mis habilades tecnicas!.. unas de las herramientas y tecnologias que más uso en mi proceso como Desarrollador de Software, con estas son las que tengo más afinidad y he estado ganando experiencia durante los ultmos meses. Cabe recalcar que siempre estoy dispuesto a aprender algo nuevo sobre ellas u otras tecnologías </p>
                     </div>
@@ -161,9 +176,47 @@
             </div>
         </section>
         <section class="" id="proyects">
-            <h3>Proyects</h3>
-            <h5>Pruebas tecnicas!</h5>
-            <p>Mostrar la solucion que se se ha dado a ciertas pruebas tecnicas</p>
+            <div class="text-center">
+                <h3 class="section-title">Proyects</h3>
+
+            </div>
+
+            <div class="grid-iframes">
+                <article class="iframe-container">
+                    <iframe class="screen-iframe" src="https://davidevk2.github.io/FindIt/" frameborder="0"></iframe>
+                    <div class="body-container">
+                        <button class="">Full Preview</button>
+
+                    </div>
+
+                </article>
+                
+                <article class="iframe-container">
+                    <iframe class="screen-iframe" src="https://negozioapp.com"  frameborder="0"></iframe>
+                    <div class="body-container">
+                        <button class="">Full Preview</button>
+
+                    </div>
+
+                </article>
+                <article class="iframe-container">
+                    <iframe class="screen-iframe" src="https://ubiksa.co" frameborder="0"></iframe>
+                    <div class="body-container">
+                        <button class="">Full Preview</button>
+
+                    </div>
+
+                </article>
+                
+                <article class="iframe-container">
+                    <iframe class="screen-iframe" src="https://davidevk2.github.io/Laboratorio-dev/" frameborder="0"></iframe>
+                    <div class="body-container">
+                        <button class="">Full Preview</button>
+
+                    </div>
+                </article>
+            
+            </div>
         </section>
         <section class="contact" id="contact">
             <div class="wrap-container">
@@ -181,11 +234,9 @@
                     </p>
                     <ul class="social-media">
                         <li>
-                            <a href="https://www.linkedin.com/in/david-herrera-zapata" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/davidherrerazapata/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                         </li>
-                        <li>
-                            <a href="http://"><i class="fa-brands fa-twitter"></i></a>
-                        </li>
+                       
                         <li>
                             <a href="http://"><i class="fa-brands fa-facebook"></i></a>
                         </li>
@@ -213,16 +264,15 @@
                     </div>
 
                     <div class="form-group">
-                        <!-- <input type="submit" value="ENVIAR"> -->
                         <button type="submit" class="btn-form">ENVIAR</button>
                     </div>
                 </form>
             </div>
         </section>
+        <div class="btn-up">
+            <a href="#home"><span><i class="fa-sharp fa-solid fa-chevron-up"></i></span></a>
+        </div>
     </main>
-    <div class="btn-up">
-        <a href="#home"><span><i class="fa-sharp fa-solid fa-chevron-up"></i></span></a>
-    </div>
     <footer>
         <div class="box-container">
             <nav class="footer-menu">
@@ -236,28 +286,25 @@
                     <span><i class="fa-solid fa-face-sunglasses"></i></span>😎</span>
                 </div> -->
                 <div class="contact-info">
-                    <p><span><i class="fa-solid fa-location-dot"></i></span> Medellín, Antioquia</p>
-                    <p><span><i class="fa-solid fa-phone"></i></span> +57 323 342 3539</p>
+                    <p class="flex-inline"><span><i class="fa-solid fa-location-dot"></i></span> Medellín, Antioquia</p>
+                    <p class="flex-inline"><span><i class="fa-solid fa-phone"></i></span> +57 323 342 3539</p>
                 </div>
                 <ul class="social-media">
                     <li>
                         <a href="https://github.com/Davidhzk2/Davidhzk2" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </li>
-                    <li>
-                        <a href="http://"><i class="fa-brands fa-twitter"></i></a>
-                    </li>
+                    
                     <li>
                         <a href="http://"><i class="fa-brands fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/david-herrera-zapata" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/davidherrerazapata/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
             <div class="info-rights">
-                <span>© Todos los derechos reservados | 2023</span>
+                <span>© Todos los derechos reservados | 2026</span>
                 <span>® Desarrollado con 💜 por David Herrera.</span>
-                <!-- <span>® Develop with 💜 by David Herrera.</span> -->
             </div>
         </div>
     </footer>
